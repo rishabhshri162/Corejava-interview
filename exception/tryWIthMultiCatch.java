@@ -6,13 +6,11 @@ public class tryWIthMultiCatch {
 
 		int a = 10;
 
-		int b = 0;
-
 		String name = null;
 
 		try {
 
-			int c = a / b;
+			int c = a / 0;
 			System.out.println("Division = " + c);
 
 			System.out.println(name.length());

@@ -8,7 +8,7 @@ public class TestAccount {
 		
 		a.setbalance(1000);
 		a.deposit(1000);
-		a.withdrawal(200);
+		a.withdrawal(20000);
 	}
 	
 	

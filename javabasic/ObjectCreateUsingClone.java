@@ -11,10 +11,14 @@ public class ObjectCreateUsingClone implements Cloneable {
 	}
 
 	public static void main(String[] args) {
+		
 		try {
-			ObjectCreateUsingClone original = new ObjectCreateUsingClone();
-			ObjectCreateUsingClone clone = (ObjectCreateUsingClone) original.clone();
-			clone.display();
+		ObjectCreateUsingClone original = new ObjectCreateUsingClone();
+		
+		ObjectCreateUsingClone clone = (ObjectCreateUsingClone) original.clone();
+		
+		clone.display();
+		
 		} catch (CloneNotSupportedException e) {
 			e.printStackTrace();
 		}

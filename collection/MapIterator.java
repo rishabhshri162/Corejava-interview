@@ -15,28 +15,31 @@ public class MapIterator {
 		m.put(2, "oop");
 		m.put(3, "collection");
 
-		System.out.println(m);
-
-		for (Object o : m.entrySet()) {
-			System.out.println(o);
-		}
-
-		for (Object o : m.values()) {
-			System.out.println(o);
-		}
-
-		for (Object o : m.keySet()) {
-			System.out.println(o);
-		}
-
-//		TreeMap t = new TreeMap();
-//		t.put(1, "Ram");
-//		t.put(3, "Shyam");
-//		t.put(2, "Lakhan");
-//		t.put(4, null);
+//		System.out.println(m);
 //
-//		for (Object o : t.keySet()) {
+//		for (Object o : m.entrySet()) {
 //			System.out.println(o);
 //		}
+//
+//		for (Object o : m.values()) {
+//			System.out.println(o);
+//		}
+//
+//		for (Object o : m.keySet()) {
+//			System.out.println(o);
+//		}
+
+		// Iterate over the keys and values in the map
+		
+		for (Map.Entry<Integer, String> entry : m.entrySet()) {
+			System.out.println(entry.getKey() + ": " + entry.getValue());
+		}
+
+		for (int i = 1; i <= m.size(); i++) {
+
+			System.out.println(m.get(i));
+
+		}
+
 	}
 }

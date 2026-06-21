@@ -8,7 +8,7 @@ public class TestArrayIndexOutOfBoundsException {
 
 		try {
 
-			System.out.println(arr[6]);
+			System.out.println(arr[5]);
 
 		} catch (ArrayIndexOutOfBoundsException e) {
 			System.out.println(e);

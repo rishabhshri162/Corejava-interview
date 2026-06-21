@@ -9,6 +9,7 @@ public class TestDeepCloning {
 		deep1.balance = 10;
 
 		deep1.address = new Address();
+		
 		deep1.address.city = "Delhi";
 
 		Deep deep2 = (Deep) deep1.clone();

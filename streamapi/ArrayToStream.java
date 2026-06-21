@@ -7,7 +7,7 @@ public class ArrayToStream {
 
 	public static void main(String[] args) {
 
-		String str[] = { "abc", "def", "jkl", "ghi" };
+		String str[] = { "abc", "def"};
 
 		Stream stream = Arrays.stream(str);
 

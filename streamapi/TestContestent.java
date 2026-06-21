@@ -21,9 +21,11 @@ public class TestContestent {
 				.collect(Collectors.collectingAndThen(Collectors.toList(), e -> {
 					Collections.shuffle(e);
 
-					return e.stream();
-				})).limit(1).forEach(e -> {
-					System.out.println(e.name + " "+ e.phoneNo);
+					return e.stream(
+							
+							);
+				})).limit(2).forEach(e -> {
+					System.out.println(e.name + " " + e.phoneNo);
 				});
 	}
 }

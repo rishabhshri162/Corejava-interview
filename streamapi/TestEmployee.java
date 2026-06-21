@@ -15,14 +15,21 @@ public class TestEmployee {
 		employees.add(new Employee("David", 80000));
 		employees.add(new Employee("David", 80000));
 
-		  employees.stream().map(e -> e.getSalary()).distinct().sorted(Comparator.reverseOrder()).skip(1).limit(1)
-	                .forEach(System.out::println);
-		  
-		  
-		  
-		  
-		  //ascending order
-		  employees.stream().map(e -> e.getSalary()).distinct().sorted().forEach(System.out::println);
-	             
+		// firsthighest
+		employees.stream().map(e -> e.getSalary()).distinct().sorted(Comparator.reverseOrder()).limit(1)
+				.forEach(System.out::println);
+
+		// second highest salary
+		employees.stream().map(e -> e.getSalary()).distinct().sorted(Comparator.reverseOrder()).skip(1).limit(1)
+				.forEach(System.out::println);
+
+		employees.stream().filter(employee -> employee.getSalary() > 20000)
+				.collect(Collectors.toCollection(ArrayList::new));
+
+		employees.forEach(e -> System.out.println(e.getName() + " - Salary: " + e.getSalary()));
+
+		// ascending order
+		employees.stream().map(e -> e.getSalary()).distinct().sorted().forEach(System.out::println);
+
 	}
 }

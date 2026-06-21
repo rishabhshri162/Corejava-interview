@@ -26,7 +26,8 @@ public class Employee {
 
 	@Override
 	public boolean equals(Object obj) {
-//		System.out.println("in equals");
+		
+		System.out.println("in equals");
 
 		if (obj == null) {
 			return false;
@@ -46,7 +47,7 @@ public class Employee {
 
 	@Override
 	public int hashCode() {
-//		System.out.println("in hashcode");
+		System.out.println("in hascode");
 		String str = id + name + salary;
 		return str.hashCode();
 	}

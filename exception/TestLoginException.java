@@ -15,7 +15,7 @@ public class TestLoginException {
 				throw new LoginException();
 
 			}
-		} catch (Exception e) {
+		} catch (LoginException e) {
 			System.out.println(e);
 		}
 	}

@@ -1,4 +1,4 @@
-package  collection.equalshashcode;
+package collection.equalshashcode;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -8,12 +8,13 @@ import java.util.Map;
 import java.util.Set;
 
 public class TestEHC {
+	
 
 	public static void main(String[] args) {
 
-		Employee e1 = new Employee(1, "Ram", 5000);
+		Employee e1 = new Employee(1, "abc", 100);
 
-		Employee e2 = new Employee(2, "Ajay", 8000);
+		Employee e2 = new Employee(1, "abc", 100);
 
 		Employee e3 = new Employee(3, "Aman", 4000);
 
@@ -45,6 +46,7 @@ public class TestEHC {
 		s.add(e2);
 		s.add(e4);
 		System.out.println("/////////");
+		System.out.println(s.size());
 
 		System.out.println(s.contains(e2));
 
@@ -82,4 +84,5 @@ public class TestEHC {
 		System.out.println(e1.equals(e2));
 
 	}
+
 }

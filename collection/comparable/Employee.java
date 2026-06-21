@@ -16,10 +16,14 @@ public class Employee implements Comparable<Employee> {
 	@Override
 	public int compareTo(Employee o) {
 
-		if (this.name == o.name) {
-			return this.salary - o.salary;
+		if (this.name.equals(o.name)) {
+			return 0;
+		} else if (this.name.compareTo(o.name) < 0) {
+			return 1;
+
+		} else {
+			return -1;
 		}
-		return this.name.compareTo(o.name);
 	}
 
 	@Override

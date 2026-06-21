@@ -16,7 +16,7 @@ public class Shape {
 		}
 		if(i == 3) {
 			return new Triangle(2, 2);
-		}
+		} 
 		
 		return new Shape();
 		

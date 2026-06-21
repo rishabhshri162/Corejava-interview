@@ -8,7 +8,7 @@ public class TestStringIndexOutOfBound {
 
 		try {
 
-			System.out.println(name.charAt(4));
+			System.out.println(name.charAt(3));
 
 		} catch (StringIndexOutOfBoundsException e) {
 			System.out.println(e);

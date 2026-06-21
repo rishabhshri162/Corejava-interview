@@ -14,15 +14,15 @@ public class Test {
 //			
 //		}
 		
-		UserCtl ctl = new UserCtl();
-		ctl.getView();
+		UserCtl userctl = new UserCtl();
+		userctl.getView();
 		
 		
-		LoginCtl ctl1 = new LoginCtl();
-		ctl1.getView();
+		LoginCtl loginctl = new LoginCtl();
+		loginctl.getView();
 		
-		BaseCtl ctl2 = new LoginCtl();
-		ctl2.getView();
+		BaseCtl basectl = new LoginCtl();
+		basectl.getView();
 		
 	}
 

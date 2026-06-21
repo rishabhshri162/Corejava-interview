@@ -10,8 +10,10 @@ public class StreamToArray {
 		Stream<String> s = Stream.of("a", "b", "c");
 
 		String[] sa = s.toArray(e -> new String[e]);
-
-		System.out.println(sa[0]);
+		
+		for(int i = 0; i<sa.length; i++) {
+			System.out.println(sa[i]);
+		}
 	}
 
 }

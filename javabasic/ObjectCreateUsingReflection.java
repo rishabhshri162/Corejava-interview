@@ -2,7 +2,6 @@ package javabasic;
 
 import java.lang.reflect.Constructor;
 
-// Using Reflection (constructor.newinstance())
 public class ObjectCreateUsingReflection {
 
 	public void display() {

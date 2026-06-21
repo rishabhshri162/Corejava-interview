@@ -8,9 +8,9 @@ public class TestNumberFormatException {
 
 		try {
 
-			int i = Integer.parseInt(str);
+			System.out.println(Integer.parseInt(str));
 
-			System.out.println(i);
+//			System.out.println(i);
 
 		} catch (NumberFormatException e) {
 			System.out.println(e);

@@ -24,29 +24,38 @@ public class TestComparator {
 //		while (it.hasNext()) {
 //			System.out.println(it.next());
 //		}
-//		for (Object o : list) {
-//			System.out.println(o);
-//			
-//		}
+		for (Object o : list) {
+			System.out.println("byName: " + o);
+			
+		}
 
-//		EmployeeSortByIdName byIdName = new EmployeeSortByIdName();
-//
-//		Collections.sort(list, byIdName);
-//
+		EmployeeSortByIdName byIdName = new EmployeeSortByIdName();
+
+		Collections.sort(list, byIdName);
+
 //		Iterator it = list.iterator();
 //		
 //		while (it.hasNext()) {
 //			System.out.println(it.next());
 //		}
+		for (Object o : list) {
+			System.out.println("byidname: " + o);
+			
+		}
+		
 
 		EmployeeSortIDNameSalary byAll = new EmployeeSortIDNameSalary();
 
 		Collections.sort(list, byAll);
 
-		Iterator it = list.iterator();
-
-		while (it.hasNext()) {
-			System.out.println(it.next());
+//		Iterator it = list.iterator();
+//
+//		while (it.hasNext()) {
+//			System.out.println(it.next());
+//		}
+		for (Object o : list) {
+			System.out.println("byidnameSalary: " + o);
+			
 		}
 	}
 }

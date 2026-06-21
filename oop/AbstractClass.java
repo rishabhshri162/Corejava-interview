@@ -5,7 +5,7 @@ public abstract class AbstractClass {
 	public String name;
 
 	public AbstractClass() {
-
+                 
 	}
 
 	public AbstractClass(String name) {

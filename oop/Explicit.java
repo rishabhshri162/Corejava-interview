@@ -3,6 +3,7 @@ package oop;
 public class Explicit {
 	
 	public Explicit() {
+		
 	}
 
 	public Explicit(String name) {

@@ -5,7 +5,7 @@ public class Account {
 	private double balance;
 
 	public double getbalance() {
-		return this.balance;
+		return balance;
 	}
 
 	public void setbalance(double balance) {
@@ -21,7 +21,7 @@ public class Account {
 
 //	 withdrawal method
 	public void withdrawal(double amount) {
-		if (amount > this.balance) {
+		if (amount > balance) {
 			System.out.println("Insufficient fund transfer ");
 
 		} else {
