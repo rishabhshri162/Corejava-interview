@@ -14,12 +14,12 @@ public class FileMerger {
 
 		BufferedReader br = new BufferedReader(file1);
 
-		PrintWriter pw = new PrintWriter("C:\\Users\\Lenovo\\Desktop\\io\\file3.txt");
+		PrintWriter out = new PrintWriter("C:\\Users\\Lenovo\\Desktop\\io\\file3.txt");
 
 		String line = br.readLine();
 
 		while (line != null) {
-			pw.write(line);
+			out.write(line);
 			line = br.readLine();
 		}
 
@@ -28,12 +28,12 @@ public class FileMerger {
 		line = br.readLine();
 
 		while (line != null) {
-			pw.println(line);
+			out.println(line);
 			line = br.readLine();
 		}
 
 		br.close();
-		pw.close();
+		out.close();
 		System.out.println("Check your folder");
 
 	}

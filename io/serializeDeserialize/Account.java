@@ -5,9 +5,9 @@ import java.io.Serializable;
 public class Account implements Serializable {
 
 	public String accountNo;
-	public transient double balance;
+	public transient int balance;
 
-	public Account(String a, double b) {
+	public Account(String a, int b) {
 		this.accountNo = a;
 		this.balance = b;
 	}

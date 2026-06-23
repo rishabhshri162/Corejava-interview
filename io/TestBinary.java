@@ -7,7 +7,7 @@ public abstract class TestBinary {
 
 	public static void main(String[] args) throws Exception {
 
-		FileInputStream in = new FileInputStream("D:\\io\\welcome.jpg");
+		FileInputStream in = new FileInputStream("D:\\io\\welcome.png");
 
 		FileOutputStream out = new FileOutputStream("D:\\io\\welcomecopy.jpg");
 

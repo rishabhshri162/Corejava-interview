@@ -23,6 +23,8 @@ public class FileInfo {
 			System.out.println("Modified Date : "+ d);
 			
 			System.out.println(f.length());
-		}
+		}else{
+          System.out.println("File does not exist");
+        }
 	}
 }

@@ -9,7 +9,7 @@ public class TestAccountSD {
 
 	public static void main(String[] args) throws Exception {
 
-		Account a = new Account("001", 500.0);
+		Account a = new Account("1", 500);
 
 		ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("D:\\io\\Account.txt"));
 
