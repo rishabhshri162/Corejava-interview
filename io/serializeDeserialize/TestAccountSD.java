@@ -11,6 +11,8 @@ public class TestAccountSD {
 
 		Account a = new Account("1", 500);
 
+        System.out.println("Before Serialization : " + a);
+
 		ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("D:\\io\\Account.txt"));
 
 		// Convert Account class object into byte stream: serialization

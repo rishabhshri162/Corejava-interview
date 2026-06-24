@@ -8,13 +8,13 @@ public class FileMerger {
 
 	public static void main(String[] args) throws Exception {
 
-		FileReader file1 = new FileReader("C:\\Users\\Lenovo\\Desktop\\io\\file1.txt");
+		FileReader file1 = new FileReader("D:\\io\\file1.txt");
 
-		FileReader file2 = new FileReader("C:\\Users\\Lenovo\\Desktop\\io\\file2.txt");
+		FileReader file2 = new FileReader("D:\\io\\file2.txt");
 
 		BufferedReader br = new BufferedReader(file1);
 
-		PrintWriter out = new PrintWriter("C:\\Users\\Lenovo\\Desktop\\io\\file3.txt");
+		PrintWriter out = new PrintWriter("D:\\io\\file3.txt");
 
 		String line = br.readLine();
 

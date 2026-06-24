@@ -9,7 +9,7 @@ public abstract class TestBinary {
 
 		FileInputStream in = new FileInputStream("D:\\io\\welcome.png");
 
-		FileOutputStream out = new FileOutputStream("D:\\io\\welcomecopy.jpg");
+		FileOutputStream out = new FileOutputStream("D:\\io\\welcomecopy.png");
 
 		int ch = in.read();
 
