@@ -19,7 +19,7 @@ public class ReadWriteByKeyboard {
 
 		String line = reader.readLine();
 
-		while (!(line.equals("stop"))) {
+		while (!line.equals("stop")) {
 
 			out.println(line);
 

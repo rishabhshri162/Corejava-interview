@@ -17,6 +17,7 @@ public class TestAccountSD {
 
 		// Convert Account class object into byte stream: serialization
 		out.writeObject(a);
+        System.out.println(out);
 
 		out.close();
 

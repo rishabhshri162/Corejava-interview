@@ -19,7 +19,7 @@ public class FileMerger {
 		String line = br.readLine();
 
 		while (line != null) {
-			out.write(line);
+			out.println(line);
 			line = br.readLine();
 		}
 
