@@ -3,7 +3,7 @@ package oop.shallow;
 public class Shallow implements Cloneable {
 
 	public int balance;
-//	public Address address;
+	public Address address;
 	
 
     public Shallow(int balance) {

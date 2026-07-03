@@ -10,9 +10,11 @@ public class TestPriorityThread {
 		t1.setPriority(1);
 		t2.setPriority(10);
 
+//        t1.setPriority(Thread.MAX_PRIORITY);
+
 		t1.start();
 		t2.start();
 
-		System.out.println(t2.getPriority());
+//		System.out.println(t2.getPriority());
 	}
 }
